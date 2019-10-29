@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+}
+form{
+    width: 60%;
+    background-color: whitesmoke;
+    margin: auto;
+    text-align: center;
+}
+input{
+    background-color: greenyellow;
+    height: 30px;
+    color: black;
+}
+input[type="text"]{
+    width: 60%;
+}
+input[type="date"]{
+    width: 50%;
+}
+input[type="email"]{
+    width: 50%;
+}
+input[type="phone"]{
+    width: 50%;
+}
+legend{
+    width: 20%;
+    margin: auto;
+}
+input[type="radio"]{
+    width: 30px;
+    height: 10%;
+}
+input[type="submit"]{
+    width: 30%;
+    height: 10%;
+    background-color: green;
+    color: white;
+}

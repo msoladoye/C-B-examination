@@ -1,0 +1,168 @@
+body{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    overflow-y: scroll;
+}
+#header{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: 0px solid red;
+}
+#logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#logo img{
+    height: 90%;
+    width: 100%;
+}
+#banner{
+    width: 70%;
+    height: 100%;
+    padding-left: 17%;
+    text-align: center;
+}
+#banner > pre > h1{
+    font-size: 5em;
+}
+#banner > pre > h3{
+    font-size: 2em;
+}
+#index-body{
+    width: 100%;
+    height: 40%;
+    background-color: wheat;
+}
+#body-content{
+    text-align: center;
+    background-color: #222222;
+    color: grey;
+    height: 510px;
+    border: 0px groove black;
+    margin-top: -12px;
+}
+#error{
+    display: none;
+}
+#form-content{
+    width: 100%;
+    height: 400px;
+    border: 0px dotted green;
+    text-align: center;
+    padding-left: 30%; 
+}
+form{
+    width: 40%;
+    height: 95%;
+    background-color: white;
+    border: 15px groove grey;
+    border-radius: 5% 5% 40% 40%;
+}
+#studentID{
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+}
+#studentID label{
+    width: 30%;
+    color: green;
+}
+#studentID input{
+    width: 70%;
+    height: 20px;
+}
+#studentPassword{
+    width: 100%;
+    margin: 10px;
+}
+#studentPassword label{
+    width: 30%;
+    color: green;
+    font-size: 20px;
+}
+#studentPassword input{
+    width: 70%;
+    height: 20px;
+}
+button{
+    color: greenyellow;
+    width: 40%;
+    height: 10%;
+    background-color: green;
+    border-radius: 20%;
+}
+button:hover{
+    color: green;
+    background-color: greenyellow;
+}
+/*footer*/
+#footer{
+     width: 100%;
+     height: 150px;
+     background-color: black;
+     clear: both;
+     margin: auto;
+     color: white;
+}
+#left-footer{
+     width: 35%; 
+     height: 130px;
+     float: left;
+     background-color: #111;
+     font-size: 17px;
+     column-count: 3;
+     column-gap: 1px;
+     column-rule: 1px green solid;
+     padding: 10px;
+ }
+ #left-footer ul{
+     position: relative;
+     top: -20px;
+ }
+ #left-footer ul li{
+     margin: 6px;
+     list-style: none;
+ }
+ #left-footer ul li a{
+     text-decoration: none;
+     color: white;
+ }
+ #left-footer ul li a:hover{
+     text-decoration: none;
+     color: blueviolet;
+ }
+ #right-footer{
+     width: 61%; 
+     height: 130px;
+     float: right;
+     background-color: black;
+     font-size: 17px;
+     padding: 10px;
+ }
+ #right-footer ul li{
+    display: inline-block;
+    margin: 6px;
+    font-size: 25px;
+    padding: 0px;
+    font-weight: normal;
+ }
+ #right-footer ul li:hover{
+     border-bottom: 1px solid red;
+     border-top: 1px solid red;
+ }
+  #right-footer ul li a{
+      text-decoration: none;
+      color: white;
+ }
+ #right-footer ul li a:hover{
+      text-decoration: underline;
+      color: red;
+      font-weight: 200;
+ }
+ #right-footer p{
+    text-align: center;
+ }

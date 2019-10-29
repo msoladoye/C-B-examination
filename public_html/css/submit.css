@@ -1,0 +1,10 @@
+#submitted-alert{
+    background-color: grey;
+    height: 400px;
+    margin-top: -80px; 
+}
+#submitted-alert p{
+    text-align: justify;
+    font-size: 5em;
+    color: greenyellow;
+}
